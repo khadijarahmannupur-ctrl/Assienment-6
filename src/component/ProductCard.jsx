@@ -22,7 +22,7 @@ const ProductCard = ({product, cartIncrease, setCartIncrease, cartProducts, setC
     };
     return (
         <div>
-            <div className="card bg-base-100 shadow-lg rounded-2xl">
+            <div className="card bg-base-100 shadow rounded-2xl transition-transform duration-300 ease-in-out hover:scale-105 border border-violet-500 hover:shadow-violet-600">
                 <div className="card-body">
                     <div className='flex justify-end'>
                         <span className={`badge badge-xs badge-warning text-sm font-medium py-4 px-4 rounded-3xl ${tag === 'Best Seller' ? 'bg-[#FEF3C6] text-[#BB4D00]' :tag === 'Popular' ? 'bg-[#E1E7FF] border-[#9514FA] text-[#4F39F6]' :'bg-[#DBFCE7] text-[#0A883E] border-[#0A883E]'}`}>{tag}</span>
