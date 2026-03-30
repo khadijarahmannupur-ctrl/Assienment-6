@@ -20,7 +20,7 @@ const MainSection = ({productsPromise, cartIncrease, setCartIncrease}) => {
 
 
             </div>
-                {selectedBtn === 'products' ? <Products products={products} cartIncrease={cartIncrease} setCartIncrease={setCartIncrease} cartProducts={cartProducts} setCartProducts={setCartProducts}></Products> : <Cart cartProducts={cartProducts} setCartProducts={setCartProducts}></Cart>}
+                {selectedBtn === 'products' ? <Products products={products} cartIncrease={cartIncrease} setCartIncrease={setCartIncrease} cartProducts={cartProducts} setCartProducts={setCartProducts}></Products> : <Cart cartProducts={cartProducts} setCartProducts={setCartProducts} cartIncrease={cartIncrease} setCartIncrease={setCartIncrease}></Cart>}
         </div>
     );
 };
