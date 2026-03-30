@@ -8,10 +8,17 @@ const ProductCard = ({product, cartIncrease, setCartIncrease, cartProducts, setC
     const [isPurchase, setIsPurchase] = useState(false);
 
     const handlePurchase =()=> {
-        toast.success("Added to Cart Successfully")
         setIsPurchase(true)  
+        
+        const isFound = cartProducts.find(item => item.id === product.id);
+        if(isFound){
+            toast.error('Item is Already Added');
+            return;
+        }
+        
         setCartIncrease(cartIncrease + 1)
         setCartProducts([...cartProducts, product])
+        toast.success("Added to Cart Successfully")
     };
     return (
         <div>
