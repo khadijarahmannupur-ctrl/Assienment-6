@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaCheck } from "react-icons/fa6";
 
-const ProductCard = ({product, cartIncrease, setCartIncrease}) => {
+const ProductCard = ({product, cartIncrease, setCartIncrease, cartProducts, setCartProducts}) => {
     // console.log(product);
     const {name, description, price, period, tag, features, icon} = product;
     const [isPurchase, setIsPurchase] = useState(false);
@@ -9,6 +9,7 @@ const ProductCard = ({product, cartIncrease, setCartIncrease}) => {
     const handlePurchase =()=> {
         setIsPurchase(true)  
         setCartIncrease(cartIncrease + 1)
+        setCartProducts([...cartProducts, product])
     };
     return (
         <div>
