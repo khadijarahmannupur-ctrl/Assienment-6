@@ -4,6 +4,7 @@ import './App.css'
 import MainSection from './component/MainSection'
 import NavBar from './component/NavBar'
 import { ToastContainer } from 'react-toastify';
+import Banner from './component/Banner';
 
 const fetchProductsData = async ()=> {
   const res = await fetch('/productsData.json');
@@ -18,6 +19,7 @@ function App() {
   return (
     <>
       <NavBar cartIncrease={cartIncrease}></NavBar>
+      <Banner></Banner>
       <MainSection productsPromise={productsPromise} cartIncrease={cartIncrease} setCartIncrease={setCartIncrease}></MainSection>
 
        <ToastContainer />
