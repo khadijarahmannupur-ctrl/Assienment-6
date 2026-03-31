@@ -12,15 +12,15 @@
 <p align="center">
   <img src="https://i.ibb.co.com/nq66skDS/Screenshot-579.png" width="45%" />
   <img src="https://i.ibb.co.com/N6B2BkKC/Screenshot-580.png" width="45%" />
+</p>
+
+<p align="center">
   <img src="https://i.ibb.co.com/MDw6ddH7/Screenshot-585.png" width="45%" />
-</p>
-
-<p align="center">
   <img src="https://i.ibb.co.com/tyhKQKy/Screenshot-581.png" width="45%" />
-  <img src="https://i.ibb.co.com/VYhY3Qxs/Screenshot-582.png" width="45%" />
 </p>
 
 <p align="center">
+  <img src="https://i.ibb.co.com/VYhY3Qxs/Screenshot-582.png" width="45%" />
   <img src="https://i.ibb.co.com/VFKW6jC/Screenshot-583.png" width="45%" />
   <img src="https://i.ibb.co.com/1NjMMM8/Screenshot-584.png" width="45%" />
 </p>
