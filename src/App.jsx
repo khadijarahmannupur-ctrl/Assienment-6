@@ -8,6 +8,7 @@ import Banner from './component/Banner';
 import Rating from './component/Rating';
 import Steps from './component/Steps';
 import Workflow from './component/Workflow';
+import Pricing from './component/Pricing';
 
 const fetchProductsData = async ()=> {
   const res = await fetch('/productsData.json');
@@ -27,6 +28,7 @@ function App() {
       <MainSection productsPromise={productsPromise} cartIncrease={cartIncrease} setCartIncrease={setCartIncrease}>
       </MainSection>
       <Steps></Steps>
+      <Pricing></Pricing>
       <Workflow></Workflow>
 
        <ToastContainer />
