@@ -26,7 +26,7 @@ const Cart = ({ cartProducts, setCartProducts, cartIncrease, setCartIncrease }) 
                 <div>
                     {cartProducts.length === 0 ?
                         <div className='h-50 flex justify-center items-center'>
-                            <h2 className='text-2xl font-bold text-[#627382]'>No Product Selected yet</h2>
+                            <h2 className='text-2xl font-bold text-[#627382]'>Your Cart is Empty</h2>
                         </div>
                         :
                         <>
