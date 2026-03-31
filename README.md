@@ -1,12 +1,106 @@
-# React + Vite
+# 🚀 DigiTools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 📸 Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://i.ibb.co.com/8D4BsbnD/Screenshot-586.png
+https://i.ibb.co.com/tww9gvn8/Screenshot-577.png
+https://i.ibb.co.com/Jw293bKV/Screenshot-579.png
+https://i.ibb.co.com/pB5cxqrw/Screenshot-581.png
+https://i.ibb.co.com/SDrqhy3P/Screenshot-585.png
+https://i.ibb.co.com/0VpyjYDF/Screenshot-582.png
+https://i.ibb.co.com/TxxWrNjJ/Screenshot-583.png
+https://i.ibb.co.com/WvtsNnLQ/Screenshot-584.png
 
-## Expanding the ESLint configuration
+## 📌 Project Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**DigiTools** is a modern, responsive web application that offers a collection of powerful digital tools to enhance productivity and creativity.
+Users can explore different tools, view pricing plans, add products to cart, and manage their selections with a smooth UI experience.
+
+---
+
+## 🛠️ Tech Stack
+
+* ⚛️ React.js
+* 🎨 Tailwind CSS
+* ⚡ Vite
+* 🔔 React Toastify
+* 🎯 React Icons
+* 🌐 Netlify (Deployment)
+
+---
+
+## ✨ Features
+
+### 🛒 Add to Cart
+
+* Add products instantly
+* Real-time cart update
+* Toast notification on action
+
+### ❌ Remove Product
+
+* Remove any product from cart
+* Instant UI update
+* Success alert using toast
+
+### 💰 Dynamic Total Calculation
+
+* Automatically calculates total price
+* Updates instantly when product changes
+
+### 🔔 Toast Alerts
+
+* Add, Remove, Checkout → all actions notified
+
+### 🏷️ Smart Tag System
+
+* Tags like **Popular**, **New**, **Best Seller**
+* Dynamic color styling based on tag
+
+### 📱 Fully Responsive
+
+* Mobile ✅
+* Tablet ✅
+* Desktop ✅
+
+---
+
+## 🚀 Live Demo
+
+👉 https://dgitools.netlify.app/
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+git clone https://github.com/your-username/digitools.git
+cd digitools
+npm install
+npm run dev
+```
+
+---
+
+## 🧾 Future Improvements
+
+* 🔢 Product quantity system
+* 💳 Payment integration
+* 🌙 Dark mode
+* 🔐 Authentication system
+
+---
+
+## 👨‍💻 Author
+
+**Khadija Rahman Nupur**
+💙 Passionate Frontend Developer
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
