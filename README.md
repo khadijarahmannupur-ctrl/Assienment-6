@@ -4,14 +4,27 @@
 
 ## 📸 Preview
 
-https://i.ibb.co.com/8D4BsbnD/Screenshot-586.png
-https://i.ibb.co.com/tww9gvn8/Screenshot-577.png
-https://i.ibb.co.com/Jw293bKV/Screenshot-579.png
-https://i.ibb.co.com/pB5cxqrw/Screenshot-581.png
-https://i.ibb.co.com/SDrqhy3P/Screenshot-585.png
-https://i.ibb.co.com/0VpyjYDF/Screenshot-582.png
-https://i.ibb.co.com/TxxWrNjJ/Screenshot-583.png
-https://i.ibb.co.com/WvtsNnLQ/Screenshot-584.png
+<p align="center">
+  <img src="https://i.ibb.co.com/8D4BsbnD/Screenshot-586.png" width="45%" />
+  <img src="https://i.ibb.co.com/tww9gvn8/Screenshot-577.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://i.ibb.co.com/Jw293bKV/Screenshot-579.png" width="45%" />
+  <img src="https://i.ibb.co.com/pB5cxqrw/Screenshot-581.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://i.ibb.co.com/SDrqhy3P/Screenshot-585.png" width="45%" />
+  <img src="https://i.ibb.co.com/0VpyjYDF/Screenshot-582.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://i.ibb.co.com/TxxWrNjJ/Screenshot-583.png" width="45%" />
+  <img src="https://i.ibb.co.com/WvtsNnLQ/Screenshot-584.png" width="45%" />
+</p>
+
+---
 
 ## 📌 Project Overview
 
@@ -69,7 +82,7 @@ Users can explore different tools, view pricing plans, add products to cart, and
 
 ## 🚀 Live Demo
 
-👉 https://dgitools.netlify.app/
+👉 [https://dgitools.netlify.app/](https://dgitools.netlify.app/)
 
 ---
 
@@ -103,4 +116,3 @@ npm run dev
 ## ⭐ Support
 
 If you like this project, give it a ⭐ on GitHub!
-
